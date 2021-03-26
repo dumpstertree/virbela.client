@@ -1,0 +1,16 @@
+{
+    "name": "virbela.client",
+    "references": [
+        "GUID:843d8262101a04805addf21359713d37",
+        "GUID:883b5aeaa01164b36aeca668031d9d11"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
