@@ -26,7 +26,6 @@ namespace Virbela {
 		private void HandleToggleChanged ( ToggleChangedEvent evnt ) {
 
 			Debug.Log( $"Toggle was changed to a value of '{evnt.Value}'" );
-			Debug.Log( $"HELLO!!!" );
 		}
 		private void HandleSliderChanged ( SliderChangedEvent evnt ) {
 
