@@ -25,15 +25,19 @@ namespace Virbela {
 
 		private void HandleToggleChanged ( ToggleChangedEvent evnt ) {
 
-			Debug.Log( $"Toggle was changed to a value of '{evnt.Value}'" );
+			if ( evnt.Value ) {
+				Debug.Log( "Hello World" );
+			}
+
+			// Debug.Log( $"Toggle was changed to a value of '{evnt.Value}'" );
 		}
 		private void HandleSliderChanged ( SliderChangedEvent evnt ) {
 
-			Debug.Log( $"Slider was changed to a value of '{evnt.Value}'" );
+			// Debug.Log( $"Slider was changed to a value of '{evnt.Value}'" );
 		}
 		private void HandleFieldChanged ( FieldChangedEvent evnt ) {
 
-			Debug.Log( $"Field was changed to a value of '{evnt.Value}'" );
+			// Debug.Log( $"Field was changed to a value of '{evnt.Value}'" );
 		}
 	}
 }
